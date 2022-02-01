@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-background: darkred;
+    --secondary-textcolor: darksalmon;
+    --tert-buttoncolor: teal;
+}
+
+header .h1 {
+    color: var(--secondary-textcolor)
+}
+
+.main {
+    margin-top: 200px;
+}
+
+.header {
+    padding: 50px;
+}
+
+.answer-button {
+    margin: 10px;
+    border-radius: 12px;
+    background-color: var(--tert-buttoncolor);
+    color: darksalmon;
+}
+
+#next-Button {
+    background-color: var(--tert-buttoncolor);
+}
